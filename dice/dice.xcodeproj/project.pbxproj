@@ -1,0 +1,1246 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B74C4CC26F4FDAD00F315A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74C4CB26F4FDAD00F315A0 /* AppDelegate.swift */; };
+		3B74C4CE26F4FDAD00F315A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74C4CD26F4FDAD00F315A0 /* SceneDelegate.swift */; };
+		3B74C4D026F4FDAD00F315A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74C4CF26F4FDAD00F315A0 /* ViewController.swift */; };
+		3B74C4D326F4FDAD00F315A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B74C4D126F4FDAD00F315A0 /* Main.storyboard */; };
+		3B74C4D526F4FDAD00F315A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B74C4D426F4FDAD00F315A0 /* Assets.xcassets */; };
+		3B74C4D826F4FDAD00F315A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B74C4D626F4FDAD00F315A0 /* LaunchScreen.storyboard */; };
+		3B74C4E326F4FDAE00F315A0 /* diceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74C4E226F4FDAE00F315A0 /* diceTests.swift */; };
+		3B74C4ED26F4FDAE00F315A0 /* diceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74C4EC26F4FDAE00F315A0 /* diceUITests.swift */; };
+		3B74C4EF26F4FDAE00F315A0 /* diceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74C4EE26F4FDAE00F315A0 /* diceUITestsLaunchTests.swift */; };
+		3B74C4F326F4FDAE00F315A0 /* dice WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3B74C4F226F4FDAE00F315A0 /* dice WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3B74C4F926F4FDAE00F315A0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B74C4F726F4FDAE00F315A0 /* Interface.storyboard */; };
+		3B74C4FB26F4FDAE00F315A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B74C4FA26F4FDAE00F315A0 /* Assets.xcassets */; };
+		3B74C50126F4FDAE00F315A0 /* dice WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3B74C50026F4FDAE00F315A0 /* dice WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3B74C50626F4FDAE00F315A0 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74C50526F4FDAE00F315A0 /* InterfaceController.swift */; };
+		3B74C50826F4FDAE00F315A0 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74C50726F4FDAE00F315A0 /* ExtensionDelegate.swift */; };
+		3B74C50A26F4FDAE00F315A0 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74C50926F4FDAE00F315A0 /* NotificationController.swift */; };
+		3B74C50C26F4FDAE00F315A0 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74C50B26F4FDAE00F315A0 /* ComplicationController.swift */; };
+		3B74C50E26F4FDAF00F315A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B74C50D26F4FDAF00F315A0 /* Assets.xcassets */; };
+		3B74C51A26F4FDAF00F315A0 /* dice_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74C51926F4FDAF00F315A0 /* dice_WatchKit_AppTests.swift */; };
+		3B74C52426F4FDAF00F315A0 /* dice_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74C52326F4FDAF00F315A0 /* dice_WatchKit_AppUITests.swift */; };
+		3B74C52626F4FDAF00F315A0 /* dice_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74C52526F4FDAF00F315A0 /* dice_WatchKit_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B74C4DF26F4FDAE00F315A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B74C4C026F4FDAD00F315A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B74C4C726F4FDAD00F315A0;
+			remoteInfo = dice;
+		};
+		3B74C4E926F4FDAE00F315A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B74C4C026F4FDAD00F315A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B74C4C726F4FDAD00F315A0;
+			remoteInfo = dice;
+		};
+		3B74C4F426F4FDAE00F315A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B74C4C026F4FDAD00F315A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B74C4F126F4FDAE00F315A0;
+			remoteInfo = "dice WatchKit App";
+		};
+		3B74C50226F4FDAE00F315A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B74C4C026F4FDAD00F315A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B74C4FF26F4FDAE00F315A0;
+			remoteInfo = "dice WatchKit Extension";
+		};
+		3B74C51626F4FDAF00F315A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B74C4C026F4FDAD00F315A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B74C4FF26F4FDAE00F315A0;
+			remoteInfo = "dice WatchKit Extension";
+		};
+		3B74C52026F4FDAF00F315A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B74C4C026F4FDAD00F315A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B74C4F126F4FDAE00F315A0;
+			remoteInfo = "dice WatchKit App";
+		};
+		3B74C54026F4FDD400F315A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B74C4C026F4FDAD00F315A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B74C4C726F4FDAD00F315A0;
+			remoteInfo = dice;
+		};
+		3B74C54226F4FDE200F315A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B74C4C026F4FDAD00F315A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B74C4C726F4FDAD00F315A0;
+			remoteInfo = dice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3B74C52C26F4FDAF00F315A0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3B74C50126F4FDAE00F315A0 /* dice WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B74C53026F4FDAF00F315A0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3B74C4F326F4FDAE00F315A0 /* dice WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3B74C4C826F4FDAD00F315A0 /* dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B74C4CB26F4FDAD00F315A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B74C4CD26F4FDAD00F315A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3B74C4CF26F4FDAD00F315A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B74C4D226F4FDAD00F315A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B74C4D426F4FDAD00F315A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B74C4D726F4FDAD00F315A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B74C4D926F4FDAD00F315A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B74C4DE26F4FDAE00F315A0 /* diceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = diceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B74C4E226F4FDAE00F315A0 /* diceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diceTests.swift; sourceTree = "<group>"; };
+		3B74C4E826F4FDAE00F315A0 /* diceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = diceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B74C4EC26F4FDAE00F315A0 /* diceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diceUITests.swift; sourceTree = "<group>"; };
+		3B74C4EE26F4FDAE00F315A0 /* diceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B74C4F226F4FDAE00F315A0 /* dice WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dice WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B74C4F826F4FDAE00F315A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3B74C4FA26F4FDAE00F315A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B74C50026F4FDAE00F315A0 /* dice WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "dice WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B74C50526F4FDAE00F315A0 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3B74C50726F4FDAE00F315A0 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3B74C50926F4FDAE00F315A0 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		3B74C50B26F4FDAE00F315A0 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		3B74C50D26F4FDAF00F315A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B74C50F26F4FDAF00F315A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B74C51026F4FDAF00F315A0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3B74C51526F4FDAF00F315A0 /* dice WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dice WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B74C51926F4FDAF00F315A0 /* dice_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dice_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		3B74C51F26F4FDAF00F315A0 /* dice WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dice WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B74C52326F4FDAF00F315A0 /* dice_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dice_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		3B74C52526F4FDAF00F315A0 /* dice_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dice_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B74C4C526F4FDAD00F315A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B74C4DB26F4FDAE00F315A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B74C4E526F4FDAE00F315A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B74C4FD26F4FDAE00F315A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B74C51226F4FDAF00F315A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B74C51C26F4FDAF00F315A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B74C4BF26F4FDAD00F315A0 = {
+			isa = PBXGroup;
+			children = (
+				3B74C4CA26F4FDAD00F315A0 /* dice */,
+				3B74C4E126F4FDAE00F315A0 /* diceTests */,
+				3B74C4EB26F4FDAE00F315A0 /* diceUITests */,
+				3B74C4F626F4FDAE00F315A0 /* dice WatchKit App */,
+				3B74C50426F4FDAE00F315A0 /* dice WatchKit Extension */,
+				3B74C51826F4FDAF00F315A0 /* dice WatchKit AppTests */,
+				3B74C52226F4FDAF00F315A0 /* dice WatchKit AppUITests */,
+				3B74C4C926F4FDAD00F315A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B74C4C926F4FDAD00F315A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B74C4C826F4FDAD00F315A0 /* dice.app */,
+				3B74C4DE26F4FDAE00F315A0 /* diceTests.xctest */,
+				3B74C4E826F4FDAE00F315A0 /* diceUITests.xctest */,
+				3B74C4F226F4FDAE00F315A0 /* dice WatchKit App.app */,
+				3B74C50026F4FDAE00F315A0 /* dice WatchKit Extension.appex */,
+				3B74C51526F4FDAF00F315A0 /* dice WatchKit AppTests.xctest */,
+				3B74C51F26F4FDAF00F315A0 /* dice WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B74C4CA26F4FDAD00F315A0 /* dice */ = {
+			isa = PBXGroup;
+			children = (
+				3B74C4CB26F4FDAD00F315A0 /* AppDelegate.swift */,
+				3B74C4CD26F4FDAD00F315A0 /* SceneDelegate.swift */,
+				3B74C4CF26F4FDAD00F315A0 /* ViewController.swift */,
+				3B74C4D126F4FDAD00F315A0 /* Main.storyboard */,
+				3B74C4D426F4FDAD00F315A0 /* Assets.xcassets */,
+				3B74C4D626F4FDAD00F315A0 /* LaunchScreen.storyboard */,
+				3B74C4D926F4FDAD00F315A0 /* Info.plist */,
+			);
+			path = dice;
+			sourceTree = "<group>";
+		};
+		3B74C4E126F4FDAE00F315A0 /* diceTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B74C4E226F4FDAE00F315A0 /* diceTests.swift */,
+			);
+			path = diceTests;
+			sourceTree = "<group>";
+		};
+		3B74C4EB26F4FDAE00F315A0 /* diceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B74C4EC26F4FDAE00F315A0 /* diceUITests.swift */,
+				3B74C4EE26F4FDAE00F315A0 /* diceUITestsLaunchTests.swift */,
+			);
+			path = diceUITests;
+			sourceTree = "<group>";
+		};
+		3B74C4F626F4FDAE00F315A0 /* dice WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3B74C4F726F4FDAE00F315A0 /* Interface.storyboard */,
+				3B74C4FA26F4FDAE00F315A0 /* Assets.xcassets */,
+			);
+			path = "dice WatchKit App";
+			sourceTree = "<group>";
+		};
+		3B74C50426F4FDAE00F315A0 /* dice WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3B74C50526F4FDAE00F315A0 /* InterfaceController.swift */,
+				3B74C50726F4FDAE00F315A0 /* ExtensionDelegate.swift */,
+				3B74C50926F4FDAE00F315A0 /* NotificationController.swift */,
+				3B74C50B26F4FDAE00F315A0 /* ComplicationController.swift */,
+				3B74C50D26F4FDAF00F315A0 /* Assets.xcassets */,
+				3B74C50F26F4FDAF00F315A0 /* Info.plist */,
+				3B74C51026F4FDAF00F315A0 /* PushNotificationPayload.apns */,
+			);
+			path = "dice WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3B74C51826F4FDAF00F315A0 /* dice WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B74C51926F4FDAF00F315A0 /* dice_WatchKit_AppTests.swift */,
+			);
+			path = "dice WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		3B74C52226F4FDAF00F315A0 /* dice WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B74C52326F4FDAF00F315A0 /* dice_WatchKit_AppUITests.swift */,
+				3B74C52526F4FDAF00F315A0 /* dice_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "dice WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B74C4C726F4FDAD00F315A0 /* dice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B74C53126F4FDAF00F315A0 /* Build configuration list for PBXNativeTarget "dice" */;
+			buildPhases = (
+				3B74C4C426F4FDAD00F315A0 /* Sources */,
+				3B74C4C526F4FDAD00F315A0 /* Frameworks */,
+				3B74C4C626F4FDAD00F315A0 /* Resources */,
+				3B74C53026F4FDAF00F315A0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B74C4F526F4FDAE00F315A0 /* PBXTargetDependency */,
+			);
+			name = dice;
+			productName = dice;
+			productReference = 3B74C4C826F4FDAD00F315A0 /* dice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B74C4DD26F4FDAE00F315A0 /* diceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B74C53426F4FDAF00F315A0 /* Build configuration list for PBXNativeTarget "diceTests" */;
+			buildPhases = (
+				3B74C4DA26F4FDAE00F315A0 /* Sources */,
+				3B74C4DB26F4FDAE00F315A0 /* Frameworks */,
+				3B74C4DC26F4FDAE00F315A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B74C4E026F4FDAE00F315A0 /* PBXTargetDependency */,
+			);
+			name = diceTests;
+			productName = diceTests;
+			productReference = 3B74C4DE26F4FDAE00F315A0 /* diceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B74C4E726F4FDAE00F315A0 /* diceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B74C53726F4FDAF00F315A0 /* Build configuration list for PBXNativeTarget "diceUITests" */;
+			buildPhases = (
+				3B74C4E426F4FDAE00F315A0 /* Sources */,
+				3B74C4E526F4FDAE00F315A0 /* Frameworks */,
+				3B74C4E626F4FDAE00F315A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B74C4EA26F4FDAE00F315A0 /* PBXTargetDependency */,
+			);
+			name = diceUITests;
+			productName = diceUITests;
+			productReference = 3B74C4E826F4FDAE00F315A0 /* diceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3B74C4F126F4FDAE00F315A0 /* dice WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B74C52D26F4FDAF00F315A0 /* Build configuration list for PBXNativeTarget "dice WatchKit App" */;
+			buildPhases = (
+				3B74C4F026F4FDAE00F315A0 /* Resources */,
+				3B74C52C26F4FDAF00F315A0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B74C50326F4FDAE00F315A0 /* PBXTargetDependency */,
+			);
+			name = "dice WatchKit App";
+			productName = "dice WatchKit App";
+			productReference = 3B74C4F226F4FDAE00F315A0 /* dice WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3B74C4FF26F4FDAE00F315A0 /* dice WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B74C52926F4FDAF00F315A0 /* Build configuration list for PBXNativeTarget "dice WatchKit Extension" */;
+			buildPhases = (
+				3B74C4FC26F4FDAE00F315A0 /* Sources */,
+				3B74C4FD26F4FDAE00F315A0 /* Frameworks */,
+				3B74C4FE26F4FDAE00F315A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dice WatchKit Extension";
+			productName = "dice WatchKit Extension";
+			productReference = 3B74C50026F4FDAE00F315A0 /* dice WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		3B74C51426F4FDAF00F315A0 /* dice WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B74C53A26F4FDAF00F315A0 /* Build configuration list for PBXNativeTarget "dice WatchKit AppTests" */;
+			buildPhases = (
+				3B74C51126F4FDAF00F315A0 /* Sources */,
+				3B74C51226F4FDAF00F315A0 /* Frameworks */,
+				3B74C51326F4FDAF00F315A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B74C51726F4FDAF00F315A0 /* PBXTargetDependency */,
+				3B74C54326F4FDE200F315A0 /* PBXTargetDependency */,
+			);
+			name = "dice WatchKit AppTests";
+			productName = "dice WatchKit AppTests";
+			productReference = 3B74C51526F4FDAF00F315A0 /* dice WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B74C51E26F4FDAF00F315A0 /* dice WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B74C53D26F4FDAF00F315A0 /* Build configuration list for PBXNativeTarget "dice WatchKit AppUITests" */;
+			buildPhases = (
+				3B74C51B26F4FDAF00F315A0 /* Sources */,
+				3B74C51C26F4FDAF00F315A0 /* Frameworks */,
+				3B74C51D26F4FDAF00F315A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B74C52126F4FDAF00F315A0 /* PBXTargetDependency */,
+				3B74C54126F4FDD400F315A0 /* PBXTargetDependency */,
+			);
+			name = "dice WatchKit AppUITests";
+			productName = "dice WatchKit AppUITests";
+			productReference = 3B74C51F26F4FDAF00F315A0 /* dice WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B74C4C026F4FDAD00F315A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					3B74C4C726F4FDAD00F315A0 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					3B74C4DD26F4FDAE00F315A0 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3B74C4C726F4FDAD00F315A0;
+					};
+					3B74C4E726F4FDAE00F315A0 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3B74C4C726F4FDAD00F315A0;
+					};
+					3B74C4F126F4FDAE00F315A0 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					3B74C4FF26F4FDAE00F315A0 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					3B74C51426F4FDAF00F315A0 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3B74C4FF26F4FDAE00F315A0;
+					};
+					3B74C51E26F4FDAF00F315A0 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3B74C4F126F4FDAE00F315A0;
+					};
+				};
+			};
+			buildConfigurationList = 3B74C4C326F4FDAD00F315A0 /* Build configuration list for PBXProject "dice" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B74C4BF26F4FDAD00F315A0;
+			productRefGroup = 3B74C4C926F4FDAD00F315A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B74C4C726F4FDAD00F315A0 /* dice */,
+				3B74C4DD26F4FDAE00F315A0 /* diceTests */,
+				3B74C4E726F4FDAE00F315A0 /* diceUITests */,
+				3B74C4F126F4FDAE00F315A0 /* dice WatchKit App */,
+				3B74C4FF26F4FDAE00F315A0 /* dice WatchKit Extension */,
+				3B74C51426F4FDAF00F315A0 /* dice WatchKit AppTests */,
+				3B74C51E26F4FDAF00F315A0 /* dice WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B74C4C626F4FDAD00F315A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B74C4D826F4FDAD00F315A0 /* LaunchScreen.storyboard in Resources */,
+				3B74C4D526F4FDAD00F315A0 /* Assets.xcassets in Resources */,
+				3B74C4D326F4FDAD00F315A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B74C4DC26F4FDAE00F315A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B74C4E626F4FDAE00F315A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B74C4F026F4FDAE00F315A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B74C4FB26F4FDAE00F315A0 /* Assets.xcassets in Resources */,
+				3B74C4F926F4FDAE00F315A0 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B74C4FE26F4FDAE00F315A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B74C50E26F4FDAF00F315A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B74C51326F4FDAF00F315A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B74C51D26F4FDAF00F315A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B74C4C426F4FDAD00F315A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B74C4D026F4FDAD00F315A0 /* ViewController.swift in Sources */,
+				3B74C4CC26F4FDAD00F315A0 /* AppDelegate.swift in Sources */,
+				3B74C4CE26F4FDAD00F315A0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B74C4DA26F4FDAE00F315A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B74C4E326F4FDAE00F315A0 /* diceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B74C4E426F4FDAE00F315A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B74C4ED26F4FDAE00F315A0 /* diceUITests.swift in Sources */,
+				3B74C4EF26F4FDAE00F315A0 /* diceUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B74C4FC26F4FDAE00F315A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B74C50A26F4FDAE00F315A0 /* NotificationController.swift in Sources */,
+				3B74C50C26F4FDAE00F315A0 /* ComplicationController.swift in Sources */,
+				3B74C50826F4FDAE00F315A0 /* ExtensionDelegate.swift in Sources */,
+				3B74C50626F4FDAE00F315A0 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B74C51126F4FDAF00F315A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B74C51A26F4FDAF00F315A0 /* dice_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B74C51B26F4FDAF00F315A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B74C52626F4FDAF00F315A0 /* dice_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+				3B74C52426F4FDAF00F315A0 /* dice_WatchKit_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B74C4E026F4FDAE00F315A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B74C4C726F4FDAD00F315A0 /* dice */;
+			targetProxy = 3B74C4DF26F4FDAE00F315A0 /* PBXContainerItemProxy */;
+		};
+		3B74C4EA26F4FDAE00F315A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B74C4C726F4FDAD00F315A0 /* dice */;
+			targetProxy = 3B74C4E926F4FDAE00F315A0 /* PBXContainerItemProxy */;
+		};
+		3B74C4F526F4FDAE00F315A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B74C4F126F4FDAE00F315A0 /* dice WatchKit App */;
+			targetProxy = 3B74C4F426F4FDAE00F315A0 /* PBXContainerItemProxy */;
+		};
+		3B74C50326F4FDAE00F315A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B74C4FF26F4FDAE00F315A0 /* dice WatchKit Extension */;
+			targetProxy = 3B74C50226F4FDAE00F315A0 /* PBXContainerItemProxy */;
+		};
+		3B74C51726F4FDAF00F315A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B74C4FF26F4FDAE00F315A0 /* dice WatchKit Extension */;
+			targetProxy = 3B74C51626F4FDAF00F315A0 /* PBXContainerItemProxy */;
+		};
+		3B74C52126F4FDAF00F315A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B74C4F126F4FDAE00F315A0 /* dice WatchKit App */;
+			targetProxy = 3B74C52026F4FDAF00F315A0 /* PBXContainerItemProxy */;
+		};
+		3B74C54126F4FDD400F315A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B74C4C726F4FDAD00F315A0 /* dice */;
+			targetProxy = 3B74C54026F4FDD400F315A0 /* PBXContainerItemProxy */;
+		};
+		3B74C54326F4FDE200F315A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B74C4C726F4FDAD00F315A0 /* dice */;
+			targetProxy = 3B74C54226F4FDE200F315A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B74C4D126F4FDAD00F315A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B74C4D226F4FDAD00F315A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B74C4D626F4FDAD00F315A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B74C4D726F4FDAD00F315A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3B74C4F726F4FDAE00F315A0 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B74C4F826F4FDAE00F315A0 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B74C52726F4FDAF00F315A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B74C52826F4FDAF00F315A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3B74C52A26F4FDAF00F315A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FM85QM58J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "dice WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "dice WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.iambjlu.dice.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		3B74C52B26F4FDAF00F315A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FM85QM58J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "dice WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "dice WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.iambjlu.dice.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		3B74C52E26F4FDAF00F315A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FM85QM58J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = dice_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "dice WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = tw.iambjlu.dice;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.iambjlu.dice.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		3B74C52F26F4FDAF00F315A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FM85QM58J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = dice_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "dice WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = tw.iambjlu.dice;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.iambjlu.dice.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		3B74C53226F4FDAF00F315A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FM85QM58J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = dice/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Watch Hello World";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.iambjlu.dice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B74C53326F4FDAF00F315A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FM85QM58J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = dice/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Watch Hello World";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.iambjlu.dice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B74C53526F4FDAF00F315A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FM85QM58J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.iambjlu.diceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dice.app/dice";
+			};
+			name = Debug;
+		};
+		3B74C53626F4FDAF00F315A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FM85QM58J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.iambjlu.diceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dice.app/dice";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B74C53826F4FDAF00F315A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FM85QM58J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.iambjlu.diceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dice;
+			};
+			name = Debug;
+		};
+		3B74C53926F4FDAF00F315A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FM85QM58J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.iambjlu.diceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dice;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B74C53B26F4FDAF00F315A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FM85QM58J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.iambjlu.dice-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dice WatchKit Extension.appex/dice WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		3B74C53C26F4FDAF00F315A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FM85QM58J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.iambjlu.dice-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dice WatchKit Extension.appex/dice WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		3B74C53E26F4FDAF00F315A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FM85QM58J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.iambjlu.dice-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "dice WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		3B74C53F26F4FDAF00F315A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FM85QM58J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.iambjlu.dice-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "dice WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B74C4C326F4FDAD00F315A0 /* Build configuration list for PBXProject "dice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B74C52726F4FDAF00F315A0 /* Debug */,
+				3B74C52826F4FDAF00F315A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B74C52926F4FDAF00F315A0 /* Build configuration list for PBXNativeTarget "dice WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B74C52A26F4FDAF00F315A0 /* Debug */,
+				3B74C52B26F4FDAF00F315A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B74C52D26F4FDAF00F315A0 /* Build configuration list for PBXNativeTarget "dice WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B74C52E26F4FDAF00F315A0 /* Debug */,
+				3B74C52F26F4FDAF00F315A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B74C53126F4FDAF00F315A0 /* Build configuration list for PBXNativeTarget "dice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B74C53226F4FDAF00F315A0 /* Debug */,
+				3B74C53326F4FDAF00F315A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B74C53426F4FDAF00F315A0 /* Build configuration list for PBXNativeTarget "diceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B74C53526F4FDAF00F315A0 /* Debug */,
+				3B74C53626F4FDAF00F315A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B74C53726F4FDAF00F315A0 /* Build configuration list for PBXNativeTarget "diceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B74C53826F4FDAF00F315A0 /* Debug */,
+				3B74C53926F4FDAF00F315A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B74C53A26F4FDAF00F315A0 /* Build configuration list for PBXNativeTarget "dice WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B74C53B26F4FDAF00F315A0 /* Debug */,
+				3B74C53C26F4FDAF00F315A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B74C53D26F4FDAF00F315A0 /* Build configuration list for PBXNativeTarget "dice WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B74C53E26F4FDAF00F315A0 /* Debug */,
+				3B74C53F26F4FDAF00F315A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B74C4C026F4FDAD00F315A0 /* Project object */;
+}

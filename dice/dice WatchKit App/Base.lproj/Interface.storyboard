@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="19162" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="19044"/>
+    </dependencies>
+    <scenes>
+        <!--哈囉World-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="哈囉World" animationDuration="1" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="dice_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <switch width="1" alignment="left" value="YES" title="哈囉開關" id="8FU-hH-XpW"/>
+                        <button width="1" alignment="left" title="Hello World 按鈕" id="agV-uJ-MGD">
+                            <connections>
+                                <segue destination="IoN-r3-7pL" kind="push" id="OHO-JD-dJF"/>
+                            </connections>
+                        </button>
+                        <paymentButton width="1" alignment="left" id="BDU-gA-lWA">
+                            <connections>
+                                <segue destination="IoN-r3-7pL" kind="push" id="DtE-Sr-plc"/>
+                            </connections>
+                        </paymentButton>
+                        <authorizationAppleIDButton width="1" alignment="left" style="white" id="aOo-wb-7W0">
+                            <connections>
+                                <segue destination="IoN-r3-7pL" kind="push" id="CoJ-lf-4uq"/>
+                            </connections>
+                        </authorizationAppleIDButton>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="353.5"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" numberOfLines="0" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                        <segue destination="eXb-UN-Cd0" kind="relationship" relationship="dynamicInteractiveNotificationInterface" id="mpB-YA-K8N"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="dice_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="ETR-sE-ais">
+            <objects>
+                <controller id="IoN-r3-7pL">
+                    <items>
+                        <label width="136" alignment="left" text="操作已完成。" textAlignment="center" id="5av-5t-loD"/>
+                        <label width="136" alignment="left" text="歡迎使用此App。" textAlignment="center" id="4qM-Yu-dAk"/>
+                        <map height="100" alignment="left" id="9mh-8r-NbS"/>
+                        <volumeControlView width="136" alignment="left" controlsLocalVolume="NO" id="Kv8-S9-04a"/>
+                        <slider width="1" alignment="left" value="1" maximum="3" steps="3" id="yXj-Va-OcI"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="459" y="31"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="Niz-AI-uX2">
+            <objects>
+                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="dice_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="605" y="300"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="OHO-JD-dJF"/>
+    </inferredMetricsTieBreakers>
+</document>
