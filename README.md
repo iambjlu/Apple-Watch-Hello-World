@@ -4,8 +4,8 @@ watchOS Starter Project for practice
 <br><br>
 此專案為Apple Watch上的骰子，尚未完成，因此只有介面，還沒有程式碼。<br>
 有些跟骰子不相關的介面元件，可以直接刪掉沒關係。<BR>
-This project is about a dice on Apple Watch, but not finished yet, so there's only UI, no codes.<br>
-Some of UI compoments are not related to dice, it's OK to delete it.
+This project is about a dice on Apple Watch, but not finished yet, so there's only UI components, no codes.<br>
+Some of UI components are not related to dice, it's OK to delete it.
 <br><br>
 📱 iOS 14.0 ↑ / watchOS 7.0 ↑<br>
 💻 Built on (建置於): macOS 12, XCode 13 RC<br>
